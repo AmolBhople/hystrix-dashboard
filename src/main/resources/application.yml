@@ -1,0 +1,13 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: hystrix-dashboard
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: '*'
+
+logging:
+  file:
+    name: E://springbootLogs//hystrix-dashboard.log
